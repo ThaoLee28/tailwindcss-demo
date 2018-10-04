@@ -10,42 +10,38 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 
     <!-- Font -->
-    <link rel="stylesheet" type="text/css" href="font/font-awesome.css" />
+    <link href="font/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
 
-    <header class="relative h-screen bg-cover bg justify-centers text-center">
-        <div class="container py-10">
-            <nav class="font-semibold">
-                <div class="logo float-left inline-flex">
-                    START BOOTSTRAP
-                </div>
-                <div class="inline-flex float-right list-reset">
-                    <ul class="inline-flex list-reset">
-                        <li class="px-5"><a>About</a></li>
-                        <li class="px-5"><a>Service</a></li>
-                        <li class="px-5"><a>Porfolio</a></li>
-                        <li class="px-5"><a>Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="absolute content">
-                <h1 class="text-5xl font-bold">Your favorite source of free bootstrap themes</h1>
+    <header class="h-screen bg-cover bg">
+        <!-- <div class="container mx-auto px-4 py-5 h-full">
+            <div class="row flex justify-between">
+                <a href="" class="flex justify-center item-center px-4 py-2 m-2 no-underline text-white font-bold">START BOOTSTRAP</a>
+                <nav class="col hidden lg:flex">
+                    <a href="" class="px-4 py-2 m-2 inline-flex no-underline text-white font-bold item-center hover:text-red">About</a>
+                    <a href="" class="px-4 py-2 m-2 inline-flex no-underline text-white font-bold item-center hover:text-red">Service</a>
+                    <a href="" class="px-4 py-2 m-2 inline-flex no-underline text-white font-bold item-center hover:text-red">Porfolio</a>
+                    <a href="" class="px-4 py-2 m-2 inline-flex no-underline text-white font-bold item-center hover:text-red">Contact</a>
+                </nav>
+            </div>
+            <div class="row absolute content text-center">
+                <h1 class="test-base md:text-4xl lg:text-5xl font-bold">Your favorite source of free bootstrap themes</h1>
                 <p class="py-10 text-base">Components and options for laying out your Bootstrap project, including wrapping containers</p>
                 <button class="bg-orange-dark text-white font-bold py-2 px-4 rounded-full">
                     FIND OUT MORE
                 </button>        
-            </div>
-        </div>
+            </div> 
+        </div> -->
     </header>
 
-    <section class="relative bg-red-light h-64 text-center">
-        <div class="container">
-            <div class="absolute content">
+    <section class="bg-red-light h-auto text-center">
+        <div class="container h-full flex items-center justify-center mx-auto px-5 py-10">
+            <div class="row">
                 <h3 class="text-3xl">We've got what you need</h3>
-                <p class="py-5 text-base">Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
+                <p class="md:w-2/3 lg:w-1/2 mx-auto py-5 text-base">Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object, and responsive utility classes.</p>
                 <button class="bg-white text-black font-bold py-2 px-4 rounded-full">
                     GET STARTED
                 </button> 
@@ -54,24 +50,40 @@
     </section>
 
     <section class="relative bg-white h-auto text-black py-10">
-        <div class="container">
+        <div class="container mx-auto px-4">
             <div class="text-center">
-                <h3>At Your Service</h3>
+                <h3 class="mb-10">At Your Service</h3>
             </div>
-            <div class="flex mb-4">
-                <div class="w-1/4 text-center p-10 m-5 bg-grey-light">
-                    <i class="fa fa-diamond" aria-hidden="true"></i>
-                    <strong>Sturdy Templates</strong>
-                    <p>Tailwind doesn't include pre-designed navigation components</p>
+            <div class="flex items-stretch flex-wrap mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/4 p-15 text-center">
+                    <div class="p-5">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                        <p class="font-bold">Sturdy Templates</p>
+                        <p>Tailwind doesn't include pre-designed navigation components</p>
+                    </div>
                 </div>
-                <div class="w-1/4 text-center p-10 m-5 bg-grey-light">
+                <div class="w-full md:w-1/2 lg:w-1/4 p-15 text-center">
+                    <div class="p-5">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                        <p class="font-bold">Sturdy Templates</p>
+                        <p>Tailwind doesn't include pre-designed navigation components</p>
+                    </div>
                 
                 </div>
-                <div class="w-1/4 text-center p-10 m-5 bg-grey-light">
+                <div class="w-full md:w-1/2 lg:w-1/4 p-15 text-center">
+                    <div class="p-5">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                        <p class="font-bold">Sturdy Templates</p>
+                        <p>Tailwind doesn't include pre-designed navigation components</p>
+                    </div>
                 
                 </div>
-                <div class="w-1/4 text-center p-10 m-5 bg-grey-light">
-                
+                <div class="w-full md:w-1/2 lg:w-1/4  p-15 text-center">
+                    <div class="p-5">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                        <p class="font-bold">Sturdy Templates</p>
+                        <p>Tailwind doesn't include pre-designed navigation components</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,30 +91,30 @@
 
     <section class="h-auto">
             <div class="flex flex-wrap">
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
-                <div class="w-1/3">
+                <div class="w-full md:w-1/2 lg:w-1/3">
                     <img src="images/bg.jpg" class="w-full h-full">
                 </div>
             </div>    
     </section>
 
-    <section class="relative bg-black h-64 text-center">
-        <div class="container">
-            <div class="absolute content">
+    <section class="bg-black h-64 text-center">
+        <div class="container h-full flex items-center justify-center mx-auto px-4">
+            <div class="row">
                 <h3 class="text-3xl">Free download at Start Bootstrap</h3>
                 <button class="bg-white text-black font-bold py-2 px-4 rounded-full my-5">
                     DOWNNLOAD NOW!
@@ -111,18 +123,20 @@
         </div>
     </section>
 
-    <footer class="relative h-64 bg-white text-center text-black">
-        <div class="container">
-            <div class="absolute content px-10">
+    <footer class="bg-white text-black">
+        <div class="container py-5 md:py-20 justify-center item-center mx-auto w-4/5 md:w-2/3 lg:w-1/2">
+            <div class="row text-center">
                 <h3 class="text-3xl">Let's me touch!</h3>
                 <p class="py-5 text-base">Components and options for laying out your Bootstrap project, including wrapping containers, a powerful grid system, a flexible media object</p>
-                <div class="flex pt-10">
-                    <div class="w-1/2">
-                        123-456-6789
-                    </div>
-                    <div class="w-1/2">
-                        feedback@startbootrap.com
-                    </div>
+            </div>
+            <div class="row flex flex-wrap text-center">
+                <div class="py-2 w-full md:w-1/2">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="py-2 w-full md:w-1/2">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>feedback@startbootrap.com</p>
                 </div>
             </div>
         </div>
