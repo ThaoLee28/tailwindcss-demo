@@ -8,6 +8,12 @@
 
     <!--Tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
+
+    <!-- Any of your own CSS would go here -->
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
 
     <!-- Font -->
     <link href="font/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -16,7 +22,41 @@
 </head>
 <body>
 
-    <header class="h-screen bg-cover bg">
+    <header class="relative h-screen bg-cover bg">
+        <nav class="container mx-auto flex items-center justify-between flex-wrap p-5 lg:px-10">
+            <div class="flex items-center flex-no-shrink text-white mr-6">
+                <span class="font-semibold text-xl tracking-tight">START BOOTSTRAP</span>
+            </div>
+            <div class="test">aaaaaa</div>
+            <div class="block lg:hidden menu">
+                <button class="btn-menu flex items-center px-3 py-2 border rounded text-white border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div class="w-full block lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm">
+                    <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+                        About
+                    </a>
+                    <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+                        Service
+                    </a>
+                    <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+                        Porfolio
+                    </a>
+                    <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="row absolute content text-center">
+            <h1 class="test-base md:text-4xl lg:text-5xl font-bold">Your favorite source of free bootstrap themes</h1>
+            <p class="py-10 text-base">Components and options for laying out your Bootstrap project, including wrapping containers</p>
+            <button class="bg-orange-dark text-white font-bold py-2 px-4 rounded-full">
+                FIND OUT MORE
+            </button>        
+        </div> 
         <!-- <div class="container mx-auto px-4 py-5 h-full">
             <div class="row flex justify-between">
                 <a href="" class="flex justify-center item-center px-4 py-2 m-2 no-underline text-white font-bold">START BOOTSTRAP</a>
@@ -141,6 +181,9 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
