@@ -23,7 +23,7 @@
 <body>
 
     <header class="relative h-screen bg-cover bg">
-        <nav class="container mx-auto flex items-center justify-between flex-wrap p-5 lg:px-10">
+        <nav class="container mx-auto flex items-center justify-between flex-wrap p-5 lg:px-10 z-20 relative">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <span class="font-semibold text-xl tracking-tight">START BOOTSTRAP</span>
             </div>
@@ -49,21 +49,21 @@
                 </div>
             </div>
         </nav>
-        <div class="block menu-mobile lg:hidden">
-            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+        <div class="absolute bg-black pin-l pin-r pin-b pin-t text-center block menu-mobile lg:hidden z-10 py-20">
+            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white">
                 About
             </a>
-            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white">
                 Service
             </a>
-            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white mr-4">
+            <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white">
                 Porfolio
             </a>
             <a href="" class="block mt-4 lg:inline-block lg:mt-0 no-underline text-white hover:text-white">
                 Contact
             </a>
         </div>
-        <div class="row absolute content text-center">
+        <div class="row absolute content text-center z-0">
             <h1 class="test-base md:text-4xl lg:text-5xl font-bold">Your favorite source of free bootstrap themes</h1>
             <p class="py-10 text-base">Components and options for laying out your Bootstrap project, including wrapping containers</p>
             <button class="bg-orange-dark text-white font-bold py-2 px-4 rounded-full">
